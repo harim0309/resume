@@ -1,33 +1,6 @@
 # 김하림 경력기술서 / 포트폴리오
 
-Next.js App Router + JavaScript 기반으로 만든 수정 가능한 경력기술서입니다.
-
-## 실행
-
-```bash
-pnpm install
-pnpm dev
-```
-
-브라우저에서 `http://localhost:3000` 접속
-
-## 가장 쉽게 수정하는 방법
-
-대부분의 이력 내용은 아래 파일 하나에 모아두었습니다.
-
-```text
-data/resume.js
-```
-
-- 이름 / 이메일 / 휴대폰 / 링크
-- 핵심 성과 숫자
-- 기술 스택
-- 회사 경력
-- 프로젝트
-- 학력
-- 자기소개
-
-프로필 사진은 `public/profile.jpg`를 교체하면 됩니다.
+Next.js App Router + JavaScript 기반으로 만든 경력기술서입니다.
 
 ## PDF 저장
 
@@ -39,7 +12,3 @@ data/resume.js
 4. 배경 그래픽: 체크 권장
 
 인쇄 전용 CSS가 따로 적용되어 웹 화면과 달리 흰색 A4 경력기술서 형태로 출력됩니다.
-
-## 디자인 수정
-
-전체 스타일은 `app/globals.css`에서 수정합니다.

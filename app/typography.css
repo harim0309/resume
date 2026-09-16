@@ -1,0 +1,243 @@
+/* heading */
+@utility heading_32_bold_single {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+@utility heading_32_bold_multi {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+@utility heading_24_bold_single {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+@utility heading_24_bold_multi {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+@utility heading_20_bold_single {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+@utility heading_20_bold_multi {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+@utility heading_18_bold_single {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+@utility heading_18_bold_multi {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+/* sub title */
+@utility sub_title_16_bold_single {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+}
+
+@utility sub_title_16_bold_multi {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+@utility sub_title_16_semibold_single {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+}
+
+@utility sub_title_16_semibold_multi {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+@utility sub_title_14_bold_single {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+}
+
+@utility sub_title_14_bold_multi {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+@utility sub_title_14_semibold_single {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+}
+
+@utility sub_title_14_semibold_multi {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+@utility sub_title_12_bold_single {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+}
+
+@utility sub_title_12_bold_multi {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+@utility sub_title_12_semibold_single {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+}
+
+@utility sub_title_12_semibold_multi {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+/* body */
+@utility body_18_semibold_single {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+@utility body_18_semibold_multi {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+@utility body_16_medium_single {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+@utility body_16_medium_multi {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+@utility body_16_regular_single {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+@utility body_16_regular_multi {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@utility body_14_medium_single {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+}
+
+@utility body_14_medium_multi {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+@utility body_14_regular_single {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+@utility body_14_regular_multi {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+@utility body_12_medium_single {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+@utility body_12_medium_multi {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+@utility body_12_regular_single {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+@utility body_12_regular_multi {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+/* caption */
+@utility caption_11_bold {
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 13px;
+}
+
+@utility caption_11_regular {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 13px;
+}
+
+@utility caption_10_bold {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 11px;
+}
+
+@utility caption_10_regular {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 11px;
+}
+
+@utility caption_9_bold {
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 11px;
+}
+
+@utility caption_9_regular {
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 11px;
+}

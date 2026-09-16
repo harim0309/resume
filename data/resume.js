@@ -1,0 +1,233 @@
+// 이 파일만 수정하면 사이트의 대부분의 텍스트를 변경할 수 있습니다.
+// 이메일/휴대폰은 기존 이력서가 마스킹되어 있어 그대로 넣었습니다.
+// 실제 제출 전 본인 정보로 교체하세요.
+
+export const resume = {
+  profile: {
+    name: "김하림",
+    role: "Frontend Developer",
+    careerLabel: "4년차 프론트엔드 개발자",
+    headline: "사용자 경험과 서비스 구조를 함께 고민하는 프론트엔드 개발자",
+    summary:
+      "React, Next.js, TypeScript를 중심으로 여행 플랫폼의 신규 서비스 구축, 레거시 마이그레이션 및 운영 서비스 고도화를 경험했습니다. 기획·디자인·API 사이의 불일치를 능동적으로 발견하고 해결하며, 실제 운영 환경까지 고려한 UI와 구조를 만드는 것을 중요하게 생각합니다.",
+    photo: "/profile.jpg",
+    birth: "1999년생",
+    email: "har********@naver.com",
+    phone: "010-****-0309",
+    location: "서울",
+    portfolio:
+      "https://exuberant-august-0a9.notion.site/1f95c2bf9f874e6d85e57a2fced3c743",
+    github: "https://harim0309.github.io/portfolio01/index.html",
+  },
+
+  highlights: [
+    { value: "4년", label: "Frontend Career" },
+    { value: "7개", label: "여행 상품 예약 통합" },
+    { value: "60%", label: "출석체크 일정 단축" },
+    { value: "100%", label: "마이페이지 FE 기여도" },
+  ],
+
+  core: [
+    {
+      title: "React / Next.js 서비스 구축",
+      text: "React와 Next.js를 활용한 신규 서비스 구축부터 실제 운영·유지보수까지 경험했습니다. App Router, Server/Client Component, Middleware, SSR, 상태 Hydration을 실제 서비스 문제 해결에 활용합니다.",
+    },
+    {
+      title: "Vue 레거시 → React 전환",
+      text: "Vue2/Nuxt.js 운영 경험을 기반으로 기존 기능을 분석하고 Next.js + TypeScript 구조로 마이그레이션했습니다.",
+    },
+    {
+      title: "복잡한 API 데이터 구조화",
+      text: "서비스별 상이한 데이터와 상태를 공통 모델로 정규화하고, 기획·디자인·API 사이의 스펙 차이를 조율합니다.",
+    },
+    {
+      title: "UI/UX 이해와 협업",
+      text: "디자인 전공과 퍼블리싱 실무 경험을 바탕으로 로딩, 반응형, 인터랙션 등 사용자 경험을 개발 단계에서 함께 검토합니다.",
+    },
+    {
+      title: "운영까지 고려하는 개발",
+      text: "신규 개발뿐 아니라 실제 운영 서비스의 CS와 장애 대응을 경험했습니다. 중복 API 요청 방지, Health Check, Slack 예약 알림 등 운영 과정에서 발생하는 문제를 개발적으로 해결하는 것에도 관심을 가지고 있습니다.",
+    },
+  ],
+
+  skills: {
+    Frontend: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "JavaScript",
+      "Vue.js",
+      "Nuxt.js",
+    ],
+    "State / UI": ["Jotai", "Redux", "Tailwind CSS", "Styled CSS", "Bootstrap"],
+    "Infra / Tools": [
+      "AWS Amplify",
+      "Amazon S3",
+      "Jenkins",
+      "Git",
+      "GA",
+      "GTM",
+    ],
+    Collaboration: ["Figma", "Photoshop", "Illustrator", "REST API"],
+  },
+
+  experience: [
+    {
+      company: "㈜네이처모빌리티",
+      role: "Frontend Developer · 선임연구원",
+      period: "2023.04 - 현재",
+      description:
+        "여행 플랫폼 찜카(ZZIMCAR)의 신규 서비스 구축, Nuxt.js 레거시 운영 및 Next.js 전환, 서비스 고도화를 담당했습니다.",
+    },
+    {
+      company: "㈜유아이네트웍스",
+      role: "Publisher · 주임/팀원",
+      period: "2022.04 - 2022.07",
+      description:
+        "React 기반 스마트시티 애플리케이션과 React Native 프로젝트의 전체 퍼블리싱 및 디자인 검토를 담당했습니다.",
+    },
+  ],
+
+  projects: [
+    {
+      no: "01",
+      title: "찜카 통합 마이페이지 구축 및 고도화",
+      period: "2026.06 - 2026.09",
+      tech: [
+        "Next.js 15",
+        "React 19",
+        "JavaScript/TypeScript",
+        "Jotai",
+        "Tailwind CSS",
+        "App Router",
+      ],
+      intro:
+        "기존 Vue/Nuxt.js 기반 마이페이지를 Next.js 환경으로 전환하면서 국내·해외 렌터카, 국내·해외 항공, 숙박, 택시, 버스 등 7개 여행 상품의 예약 경험을 하나의 마이페이지로 통합했습니다.",
+      achievements: [
+        "기존 Vue/Nuxt.js 기반 기능을 Next.js 15 + React 19 기반으로 전환하고 신규 기능을 포함한 서비스 구조 재설계",
+        "Server Component와 Client Component의 역할을 분리하여 서버 초기 데이터 조회와 클라이언트 인터랙션 구조 구성",
+        "7개 여행 상품의 서로 다른 예약 데이터와 상태를 공통 모델로 정규화하고 상품별 카드 컴포넌트 설계",
+        "예약 상태·이용 기간·상품 유형 필터와 URL Query Parameter를 동기화하여 조회 조건 유지",
+        "무한 스크롤과 요청 상태 제어를 적용하여 중복 API 요청 및 요청 경합 방지",
+        "회원·비회원 예약 조회를 지원하고 비회원 상세 진입 시 서비스별 인증 토큰 발급·연계 흐름 구현",
+        "일반·소셜 회원 유형에 따라 비밀번호·휴대폰·소셜 인증으로 분기되는 회원정보 수정 프로세스 개발",
+        "쿠폰 조회·필터·정렬·일괄 다운로드, 포인트 내역, 출석체크 및 누적 보상 기능 개발",
+        "Android/iOS WebView Bridge와 Jotai를 연계하여 앱 환경, 디바이스 상태, 알림 설정 처리",
+        "공통 Fetch 모듈과 TypeScript 타입을 구성하고 Middleware에서 API Token 발급·갱신 처리",
+        "개발 전 API 요청·응답 구조를 검토하고 필요한 데이터 형태를 백엔드에 제안하여 기획-API-UI 스펙 조율",
+      ],
+      impact: {
+        title: "출석체크 기능 - 예정 개발 기간 5일 → 2일",
+        text: "출석 상태, 누적 출석 횟수 및 보상 조건에 따른 UI와 API 연동을 구현하고 기획·디자인 검수까지 반영하여 예정 일정 대비 60% 단축된 2일 내 개발·검수·배포를 완료했습니다.",
+      },
+    },
+    {
+      no: "02",
+      title: "찜카 해외렌터카",
+      period: "2024.07 - 2025.02",
+      tech: ["Next.js", "Jotai", "Tailwind CSS", "AWS Amplify", "GA", "GTM"],
+      intro:
+        "해외 렌터카 예약 서비스의 프론트엔드 개발과 운영 안정화, UI/UX 개선을 담당했습니다.",
+      achievements: [
+        "Next.js App Router 기반 해외렌터카 서비스 프론트엔드 구축",
+        "PC/Mobile의 구조와 노출 순서가 다른 화면을 하나의 반응형 컴포넌트 구조로 설계",
+        "GA/GTM 연동을 통한 사용자 행동 데이터 수집 환경 구축",
+        "예약 건별 Slack 알림 API를 제작·적용하여 CS 확인 흐름 개선",
+        "서비스 장애 및 오류 탐지를 위한 Health Check API 구현",
+        "협력사 API 스펙과 실제 응답 데이터 차이를 정리하고 백엔드와 예상 데이터 구조 협의",
+        "서비스 V2 리뉴얼 및 UI/UX 개선",
+      ],
+    },
+    {
+      no: "03",
+      title: "찜카 서비스 Next.js 마이그레이션",
+      period: "2024.03 - 2024.06",
+      tech: ["Next.js", "TypeScript", "Jotai", "Tailwind CSS", "Turborepo"],
+      intro:
+        "Vue2/Nuxt.js 기반 찜카의 메인, 이벤트, 공지사항 영역을 Next.js + TypeScript 환경으로 전환했습니다.",
+      achievements: [
+        "Vue2/Nuxt.js 기반 레거시 서비스를 Next.js + TypeScript로 마이그레이션",
+        "Middleware에서 회원 정보를 선조회하여 초기 렌더링 시 로그아웃 UI가 순간 노출되는 Flickering 문제 개선",
+        "서버에서 조회한 회원 데이터를 초기 Atom 상태에 Hydration하여 SSR/CSR 상태 불일치 최소화",
+        "Turborepo 기반 프로젝트에서 공통 UI 및 서비스별 코드 관리",
+        "기존 서비스 기능을 유지하며 Next.js 환경에 맞게 데이터 조회 및 렌더링 구조 재구성",
+      ],
+    },
+    {
+      no: "04",
+      title: "찜카 해외항공",
+      period: "2024.01 - 2024.10",
+      tech: ["Nuxt.js", "JavaScript", "HTML", "CSS"],
+      intro:
+        "해외항공 서비스 UI 및 회원/비회원 예약 경험, 협력사 연동 지원을 담당했습니다.",
+      achievements: [
+        "해외항공 서비스 전체 페이지 UI 구현",
+        "로그인 및 회원/비회원 예약 조회 기능 개발",
+        "메인 및 메뉴 서비스 진입 기능 개발",
+        "외부 항공 시스템 협력사와 개발 스펙 및 토큰 연동 사항 조율",
+        "항공 예약 이메일 템플릿 구현 및 브라우저/메일 환경별 UI 대응",
+        "외부 협력사 개발 결과물 검수 및 UI 수정 지원",
+      ],
+    },
+    {
+      no: "05",
+      title: "스타렌터카",
+      period: "2023.07 - 2023.12",
+      tech: ["Next.js", "TypeScript", "Redux", "Styled CSS"],
+      intro: "Next.js 기반 렌터카 웹 서비스의 프론트엔드 개발을 담당했습니다.",
+      achievements: [
+        "Next.js + TypeScript 기반 웹 서비스 프론트엔드 개발",
+        "Redux를 활용한 전역 상태 관리",
+        "반응형 UI 및 예약 서비스 화면 구현",
+      ],
+    },
+    {
+      no: "06",
+      title: "찜카 운영 및 서비스 고도화",
+      period: "2023.04 - 현재",
+      tech: ["Nuxt.js", "Vue.js", "JavaScript", "AWS S3", "GTM"],
+      intro:
+        "렌터카, 국내항공, 카셰어링, 메인 등 기존 찜카 서비스의 유지보수와 고도화를 수행했습니다.",
+      achievements: [
+        "예약 중복 호출, 회원 약관 인증, 본인인증 등 운영 이슈 개선",
+        "서비스 및 이벤트 오픈 일정 데이터를 AWS S3 JSON으로 관리하는 구조 적용",
+        "농협카드·항공·렌터카 등 다양한 제휴 프로모션 페이지 개발",
+        "SSG, LG 라이프케어, 베네피아 등 B2B/B2C 화이트라벨 대응",
+        "검색엔진 비노출 처리 및 GTM 설치·집계 테스트",
+      ],
+    },
+    {
+      no: "07",
+      title: "부천시 스마트시티 · Hooxi",
+      period: "2022.04 - 2022.07",
+      tech: ["React", "React Native", "JSP", "Bootstrap", "Figma"],
+      intro: "퍼블리셔로서 웹·앱 화면 구현과 디자인 검토 경험을 쌓았습니다.",
+      achievements: [
+        "부천시 스마트 시티패스 애플리케이션 내 '깨끗한 마을' 전체 퍼블리싱",
+        "JSP + Bootstrap 기반 관리자 페이지 전체 퍼블리싱",
+        "Hooxi React Native 프로젝트 전체 퍼블리싱",
+        "Figma 기반 디자인 및 기획 검토",
+      ],
+    },
+  ],
+
+  education: [
+    {
+      school: "한국산업기술대학교",
+      major: "미디어디자인공학부 · 4년제 졸업",
+      period: "2018.03 - 2022.02",
+    },
+    {
+      school: "SK Planet",
+      major: "웹 풀스택 개발자 양성 과정 수료",
+      period: "2022.09 - 2023.03",
+    },
+  ],
+
+  introduction: [
+    "저는 디자인과 서비스 경험을 이해하면서 기술적으로 문제를 해결하는 프론트엔드 개발자입니다. 디자인을 전공한 뒤 퍼블리싱을 거쳐 프론트엔드 개발자로 성장하면서 기획, 디자인, 개발의 각 단계가 실제 서비스에서 어떻게 연결되는지를 경험했습니다.",
+    "현재는 여행 플랫폼 찜카에서 React, Next.js, TypeScript를 중심으로 신규 서비스 구축과 기존 Vue/Nuxt.js 서비스의 마이그레이션 및 운영을 담당하고 있습니다. 여러 여행 상품의 서로 다른 예약 데이터를 하나의 경험으로 통합하거나, 회원 상태에 따른 초기 렌더링 문제를 서버 데이터와 상태 Hydration 구조로 해결하는 등 문제의 원인을 구조적으로 파악하고 해결해 왔습니다.",
+    "기획서, 디자인, API가 서로 맞지 않는 상황을 단순히 전달받은 범위의 문제로 두지 않습니다. 필요한 데이터 구조를 정리해 백엔드와 협의하고 사용자 경험상 필요한 로딩·인터랙션을 제안하는 등 프로젝트 완성도를 높이기 위해 능동적으로 참여합니다.",
+    "특정 프레임워크를 사용하는 개발자에 머무르기보다 서비스의 구조와 사용자 경험을 이해하고, 팀과 함께 더 나은 해결 방법을 만들어낼 수 있는 프론트엔드 개발자로 성장하고자 합니다.",
+  ],
+};

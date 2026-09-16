@@ -5,12 +5,15 @@ import { resume } from "../data/resume";
 
 const ExternalLink = ({ href, children }) => (
   <a
-    className="rounded-[10px] border border-white/10 px-[14px] py-[11px] text-[13px] text-[#d9dce3] hover:border-[#8dffb7]/50 hover:text-[#8dffb7]"
+    className="rounded-[10px] border border-white/10 px-[14px] py-[11px] text-[13px] text-[#d9dce3] hover:border-[#8dffb7]/50 hover:text-[#8dffb7] print:break-all print:border-[#cfd4dc] print:text-[#303640]"
     href={href}
     target="_blank"
     rel="noreferrer"
   >
-    {children}
+    <span className="print:hidden">{children} ↗</span>
+    <span className="hidden print:inline">
+      {children} : {href}
+    </span>
   </a>
 );
 
@@ -25,7 +28,7 @@ const sectionTitleClassName =
 const tagListClassName =
   "flex flex-wrap justify-end gap-1.5 max-[820px]:justify-start print:gap-[1.2mm]";
 const tagClassName =
-  "whitespace-nowrap rounded-full border border-white/10 px-[9px] py-1.5 text-[10px] text-[#c7ccd6] print:border-[#dfe2e7] print:px-[2mm] print:py-[1.2mm] print:text-[6.2pt] print:text-[#4c535e]";
+  "whitespace-nowrap rounded-full border border-white/10 px-[9px] py-1.5 text-[12px] text-[#c7ccd6] print:border-[#dfe2e7] print:px-[2mm] print:py-[1.2mm] print:text-[6.2pt] print:text-[#4c535e]";
 
 const timelineStart = 2010;
 const timelineEnd = 2024;
@@ -119,10 +122,10 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="mt-[25px] flex gap-2.5 print:hidden">
-            <ExternalLink href={profile.portfolio}>Portfolio ↗</ExternalLink>
-            <ExternalLink href={profile.github}>GitHub ↗</ExternalLink>
-            <ExternalLink href={profile.resumeUrl}>Resume ↗</ExternalLink>
+          <div className="mt-[25px] flex gap-2.5 print:grid">
+            <ExternalLink href={profile.resumeUrl}>Resume</ExternalLink>
+            <ExternalLink href={profile.portfolio}>Portfolio</ExternalLink>
+            <ExternalLink href={profile.github}>GitHub</ExternalLink>
           </div>
         </div>
 
@@ -302,7 +305,7 @@ export default function Home() {
         <div className="ml-[60px] grid grid-cols-2 gap-x-14 gap-y-[25px] max-[820px]:ml-0 max-[820px]:grid-cols-1 print:ml-[11mm] print:grid-cols-2 print:gap-x-[8mm] print:gap-y-[4mm]">
           {Object.entries(resume.skills).map(([group, skills]) => (
             <div key={group}>
-              <h3 className="mb-2.5 text-xs text-[#9fa6b4] print:text-[7pt] print:text-[#606570]">
+              <h3 className="mb-2.5 text-[14px] text-[#9fa6b4] print:text-[7pt] print:text-[#606570]">
                 {group}
               </h3>
               <div className={`${tagListClassName} justify-start`}>
@@ -412,7 +415,7 @@ export default function Home() {
             </p>
             <div className="mt-5 grid gap-5 print:mt-[3mm] print:gap-[3mm]">
               <div>
-                <span className="text-xs text-[#7f8795] print:text-[7pt] print:text-[#606570]">
+                <span className="text-[14px] text-[#7f8795] print:text-[7pt] print:text-[#606570]">
                   특기
                 </span>
                 <div className="mt-2 flex flex-wrap gap-1.5 print:gap-[1.2mm]">
@@ -422,7 +425,7 @@ export default function Home() {
                 </div>
               </div>
               <div>
-                <span className="text-xs text-[#7f8795] print:text-[7pt] print:text-[#606570]">
+                <span className="text-[14px] text-[#7f8795] print:text-[7pt] print:text-[#606570]">
                   취미
                 </span>
                 <div className="mt-2 flex flex-wrap gap-1.5 print:gap-[1.2mm]">

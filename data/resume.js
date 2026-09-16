@@ -17,6 +17,7 @@ export const resume = {
     location: "서울시 강남구 역삼동",
     portfolio: "https://harim0309.github.io/portfolio01/index.html",
     github: "https://github.com/harim0309?tab=repositories",
+    resumeUrl: "https://harim0309.github.io/resume/",
   },
 
   highlights: [

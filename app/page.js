@@ -122,6 +122,7 @@ export default function Home() {
           <div className="mt-[25px] flex gap-2.5 print:hidden">
             <ExternalLink href={profile.portfolio}>Portfolio ↗</ExternalLink>
             <ExternalLink href={profile.github}>GitHub ↗</ExternalLink>
+            <ExternalLink href={profile.resumeUrl}>Resume ↗</ExternalLink>
           </div>
         </div>
 
@@ -129,7 +130,7 @@ export default function Home() {
           <div className="aspect-[5/7] overflow-hidden rounded-[20px] bg-[#252a35] max-[820px]:rounded-[14px] print:rounded-[3mm] print:bg-[#eceff3]">
             <Image
               className="block size-full object-cover"
-              src={profile.photo}
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}${profile.photo}`}
               alt="김하림 프로필"
               width={300}
               height={420}
